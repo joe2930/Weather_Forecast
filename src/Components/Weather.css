@@ -1,0 +1,89 @@
+
+.weather {
+    background: rgba(255, 255, 255, 0.1);
+    min-height: auto;
+    width: 500px;
+    /* display: grid; */
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 22px;
+  }
+
+  .srch
+  {
+      display: flex ;
+      align-items: center;
+      gap: 12px;
+  }
+
+  .srch input{
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 9px;
+    font-weight: bold;
+  }
+
+  .srch img
+  {
+    width: 37px;
+    padding: 5px;
+    background-color: aliceblue;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .wicon
+  {
+    width: 150px;
+}
+
+.temp
+{
+    font-size:30px;
+    font-weight: bolder;
+}
+.loc
+{
+    font-size: 26px;
+}
+
+.data
+{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    color: #fff;
+    justify-content: space-around;
+}
+
+.data .col
+{
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    font-size: 21px;
+}
+.data .col span{
+    /* display: block; */
+    font-size: 17px;
+}
+
+.weather .sts
+{
+    font-size: 24px;
+    color: white;
+    padding: 14px;
+}
+.data .col img
+{
+    padding: 4px;
+}
